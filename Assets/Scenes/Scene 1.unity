@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.99999946, g: 0, b: 0.99999946, a: 1}
+  m_IndirectSpecularColor: {r: 0.5158812, g: 0.7695567, b: 0.89840376, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -802,7 +802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843651230}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 79.9, z: 0}
+  m_LocalPosition: {x: 0, y: 80.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1931,7 +1931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2283265885240169464, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2283265885240169464, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1975,7 +1975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2283265886369485017, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.099999994
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2283265886369485017, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2008,6 +2008,14 @@ PrefabInstance:
     - target: {fileID: 2283265886369485017, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811367794009257039, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.392
+      objectReference: {fileID: 0}
+    - target: {fileID: 7807999933119194528, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
+      propertyPath: velocity
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3374785527957132821, guid: d225d88423ea1ea4f92b6015f3081728, type: 3}
